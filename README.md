@@ -26,10 +26,14 @@ The goal of this project it to conduct topic modeling on Reddit comments. With a
 Below are selected word clouds as an example of the result from topic modeling.
 
 Lab-grown meat: cost
+Sentiment: 0.030, Proportion of positive comments = 25.3%
 ![Cost](https://github.com/chennat811/Clean_meat_topic_modeling/blob/main/Final_Wordclouds/wordcloud_9_top1.png)
 
 Clean meat: cost
+Sentiment: 0.141, Proportion of positive comments: 50.9%
 ![Cost](https://github.com/chennat811/Clean_meat_topic_modeling/blob/main/Final_Wordclouds/wordcloud_clean_top1.png)
+
+It seems like there is slight skeptism when it comes to the cost of the product. For the label "lab-grown meat", the sentiment score was lower than for "clean meat".
 
 ### Tools Used
 Pandas, Matplotlib, Sklearn, Gensim, NLTK, Reddit API, wordcloud
