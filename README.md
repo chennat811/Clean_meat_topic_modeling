@@ -31,10 +31,13 @@ Lab-grown meat: Topic = cost, Sentiment =  0.030, Proportion of positive comment
 Clean meat: Topic = cost, Sentiment = 0.141, Proportion of positive comments = 50.9%
 ![Cost](https://github.com/chennat811/Clean_meat_topic_modeling/blob/main/Final_Wordclouds/wordcloud_clean_top1.png)
 
-It seems like there is slight skeptism when it comes to the cost of the product. For the label "lab-grown meat", the sentiment score was lower than for "clean meat".
+It seems like there is slight skeptism when it comes to the cost of the product. For the label "lab-grown meat", the sentiment score was lower than for "clean meat". Furthur analysis shown in the [powerpoint](https://github.com/chennat811/Clean_meat_topic_modeling/blob/main/Project_4.pdf).
 
 ### Tools Used
 Pandas, Matplotlib, Sklearn, Gensim, NLTK, Reddit API, wordcloud
 
 ### Impacts
-Topic modeling and sentiment analysis can help the industry determine what the consumers are interested in. They can respond to consumers by releasing content that sparks interested. They can also identify the most negative pieces of comments and repond to those. If there are fake or outdated news that generate a lot of talk, the industry can identify those and respond to it. Future work: To automatically identify questions that the industry can answer and neutralize negative comments. Create a bot that answers those questions with scientific evidence.
+Topic modeling and sentiment analysis can help the industry determine what the consumers are interested in. They can respond to consumers by releasing content that sparks interested. They can also identify the most negative pieces of comments and repond to those. If there are fake or outdated news that generate a lot of talk, the industry can identify those and respond to it. 
+
+### Future work
+To automatically identify questions that the industry can answer and neutralize negative comments. Create a bot that answers those questions with scientific evidence.
