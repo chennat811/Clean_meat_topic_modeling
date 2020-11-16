@@ -101,6 +101,7 @@ def text_cleaning(df, column):
 
 def prepare_for_LDA(df, column):
     '''
+    Borrowed inspiration from https://towardsdatascience.com/evaluate-topic-model-in-python-latent-dirichlet-allocation-lda-7d57484bb5d0.
     Prepare data for LDA modeling. Create id2word, texts and a corpus to input into the LDA model.
     Args: The dataframe consisting of the info to prepare for modeling.
     Returns: A dataframe consisting the id2word, texts and corpus as LDA model inputs.
@@ -164,7 +165,7 @@ def get_sentiment_distribution(topics_df, label):
     Finally, a word cloud is created to visualize the top keywords in each topic.
     The distribution of the sentiment was also plotted in a graph.
     Args: The dataframe consisting of the topics and a keyword to name the new wordcloud files.
-    Returns: A a sentiment score, sentiment distribution for that topic. A wordcloud for that topic. 
+    Returns: A a sentiment score, sentiment distribution for that topic. A wordcloud for that topic.
     '''
     stop_words = set(stopwords.words('english'))
     new_stopwords = ['gov', 'pastebin','fcrfs94k','nlm','ncbi','thank','I','make','lol', 'yup', 'nope' ,'http', 'www', 'com', 'https','http','deleted','removed','think','would','like','meat','know']
