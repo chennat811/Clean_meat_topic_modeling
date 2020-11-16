@@ -21,9 +21,8 @@ To put it simply, lab-grown meat is basically taking animal stem cells and propa
 
 However, there is a negative connotation when it comes to lab-grown products. Many are hestiant towards trying or adopting lab-grown meat in their diet because of the mysteriousness or weirdness factor in the label. As a result, the industry wants to label the product as "clean meat."
 
-The goal of this project it to conduct topic modeling on Reddit comments. With an LDA model, the coherence score was around 0.55 for both "lab-grown meat" and "clean meat" model. 
-
-Below are selected word clouds as an example of the result from topic modeling.
+### Results
+With an LDA model, the coherence score was around 0.55 for both "lab-grown meat" and "clean meat" model.  Below are selected word clouds as an example of the result from topic modeling.
 
 Lab-grown meat: Topic = cost, Sentiment =  0.030, Proportion of positive comments = 25.3%
 ![Cost](https://github.com/chennat811/Clean_meat_topic_modeling/blob/main/Final_Wordclouds/wordcloud_9_top1.png)
