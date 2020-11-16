@@ -30,7 +30,7 @@ Lab-grown meat: Topic = cost, Sentiment =  0.030, Proportion of positive comment
 Clean meat: Topic = cost, Sentiment = 0.141, Proportion of positive comments = 50.9%
 ![Cost](https://github.com/chennat811/Clean_meat_topic_modeling/blob/main/Final_Wordclouds/wordcloud_clean_top1.png)
 
-It seems like there is slight skeptism when it comes to the cost of the product. For the label "lab-grown meat", the sentiment score was lower than for "clean meat". Furthur analysis shown in the [powerpoint](https://github.com/chennat811/Clean_meat_topic_modeling/blob/main/Project_4.pdf).
+It seems like there is slight skeptism when it comes to the cost of the product. For the label "lab-grown meat", the sentiment score was lower than for "clean meat". Further analysis shown in the [powerpoint](https://github.com/chennat811/Clean_meat_topic_modeling/blob/main/Project_4.pdf).
 
 ### Tools Used
 Pandas, Matplotlib, Sklearn, Gensim, NLTK, Reddit API, wordcloud
